@@ -1,4 +1,4 @@
-# OdyLight - Super Mario Odyssey Editor based on Spotlight
+# OdyLight - SMO Editor based on Spotlight
 
 ## System Requirements
 
