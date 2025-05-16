@@ -25,7 +25,7 @@ namespace Spotlight
             Assets = new Assets
             {
                 LargeImageKey = "spotlighticon",
-                LargeImageText = "A Super Mario 3D World Level Editor using the GL_EditorFramework"
+                LargeImageText = "A Super Mario Odyssey Editor using the GL_EditorFramework"
             },
             State = "Idle",
             Timestamps = Timestamps.Now,

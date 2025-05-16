@@ -1084,7 +1084,7 @@ namespace Spotlight.GUI
             if (CheckForUpdates(out Version Latest, true))
             {
                 if (MessageBox.Show(string.Format(UpdateReadyText, Latest.ToString()), UpdateReadyHeader, MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
-                    Process.Start("https://github.com/jupahe64/Spotlight/releases");
+                    Process.Start("https://github.com/paperbrew/OdyLight/releases");
             }
             else if (!Latest.Equals(new Version(0, 0, 0, 0)))
                 MessageBox.Show(string.Format(UpdateNoneText, new Version(Application.ProductVersion).ToString()), UpdateNoneHeader, MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -1578,7 +1578,6 @@ namespace Spotlight.GUI
             this.Localize(
             FileToolStripMenuItem,
             OpenToolStripMenuItem,
-            OpenExToolStripMenuItem,
             SaveToolStripMenuItem,
             SaveAsToolStripMenuItem,
             OptionsToolStripMenuItem,
@@ -1606,7 +1605,6 @@ namespace Spotlight.GUI
             EditLinksToolStripMenuItem,
 
             AboutToolStripMenuItem,
-            SpotlightWikiToolStripMenuItem,
             CheckForUpdatesToolStripMenuItem,
 #endregion
 
@@ -1621,17 +1619,17 @@ namespace Spotlight.GUI
         string WelcomeMessageHeader = "Introduction";
         [Program.Localized]
         string WelcomeMessageText =
-@"Welcome to Spotlight!
+@"Welcome to OdyLight!
 
-In order to use this program, you will need the folders ""StageData"" and ""ObjectData"" from Super Mario 3D World
+In order to use this program, you will need the folders ""StageData"" and ""ObjectData"" from Super Mario Odyssey
 
 Please select the folder than contains these folders";
         [Program.Localized]
-        string StatusWelcomeMessage = "Welcome to Spotlight!";
+        string StatusWelcomeMessage = "Welcome to OdyLight!";
         [Program.Localized]
         string StatusWelcomeBackMessage = "Welcome back!";
         [Program.Localized]
-        string DatabasePickerTitle = "Select the Game Directory of Super Mario 3D World";
+        string DatabasePickerTitle = "Select the Game Directory of Super Mario Odyssey";
         [Program.Localized]
         string InvalidGamepathText = "The Directory doesn't contain ObjectData and StageData.";
         [Program.Localized]
@@ -1642,7 +1640,7 @@ Please select the folder than contains these folders";
 
 Spotlight needs an Object Parameter Database in order for you to add objects.
 
-Would you like to generate a new object Database from your 3DW Directory?";
+Would you like to generate a new object Database from your SMO Directory?";
         [Program.Localized]
         string DatabaseMissingHeader = "Database Missing";
         [Program.Localized]
@@ -1687,7 +1685,7 @@ Would you like to rebuild the database from your 3DW Files?";
         [Program.Localized]
         string StatusObjectsDeletedMessage = "Deleted {0}";
         [Program.Localized]
-        string DatabaseInvalidText = "The Database is invalid, and you cannot add objects without one. Would you like to generate one from your SM3DW Files?";
+        string DatabaseInvalidText = "The Database is invalid, and you cannot add objects without one. Would you like to generate one from your SMO Files?";
         [Program.Localized]
         string DatabaseInvalidHeader = "Invalid Database";
         [Program.Localized]
@@ -1700,11 +1698,11 @@ Would you like to rebuild the database from your 3DW Files?";
         [Program.Localized]
         string StatusMovedFromLinksMessage = "Moved to the Appropriate List";
         [Program.Localized]
-        string UpdateReadyText = "Spotlight Version {0} is currently available for download! Would you like to visit the Download Page?";
+        string UpdateReadyText = "OdyLight Version {0} is currently available for download! Would you like to visit the Download Page?";
         [Program.Localized]
         string UpdateReadyHeader = "Update Ready!";
         [Program.Localized]
-        string UpdateNoneText = "You are using the Latest version of Spotlight ({0})";
+        string UpdateNoneText = "You are using the Latest version of OdyLight ({0})";
         [Program.Localized]
         string UpdateNoneHeader = "No Updates";
         [Program.Localized]

@@ -61,9 +61,9 @@ namespace Spotlight
             // 
             this.FilterZonesCheckbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.FilterZonesCheckbox.AutoSize = true;
-            this.FilterZonesCheckbox.Location = new System.Drawing.Point(12, 387);
+            this.FilterZonesCheckbox.Location = new System.Drawing.Point(12, 375);
             this.FilterZonesCheckbox.Name = "FilterZonesCheckbox";
-            this.FilterZonesCheckbox.Size = new System.Drawing.Size(81, 17);
+            this.FilterZonesCheckbox.Size = new System.Drawing.Size(140, 29);
             this.FilterZonesCheckbox.TabIndex = 3;
             this.FilterZonesCheckbox.Text = "Filter Zones";
             this.FilterZonesCheckbox.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@ namespace Spotlight
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "Search";
             // 
@@ -125,7 +125,7 @@ namespace Spotlight
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SearchTextBox.Location = new System.Drawing.Point(59, 6);
             this.SearchTextBox.Name = "SearchTextBox";
-            this.SearchTextBox.Size = new System.Drawing.Size(301, 20);
+            this.SearchTextBox.Size = new System.Drawing.Size(301, 29);
             this.SearchTextBox.TabIndex = 6;
             // 
             // AddZoneForm
@@ -139,7 +139,7 @@ namespace Spotlight
             this.Controls.Add(this.OKButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddZoneForm";
-            this.Text = "Spotlight - Add Zone";
+            this.Text = "OdyLight - Add Zone";
             ((System.ComponentModel.ISupportInitialize)(this.ZoneListView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

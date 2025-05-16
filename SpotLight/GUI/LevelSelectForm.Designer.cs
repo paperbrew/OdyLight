@@ -45,10 +45,11 @@
             this.LevelsListView.FullRowSelect = true;
             this.LevelsListView.GridLines = true;
             this.LevelsListView.HideSelection = false;
-            this.LevelsListView.Location = new System.Drawing.Point(0, 21);
+            this.LevelsListView.Location = new System.Drawing.Point(0, 32);
+            this.LevelsListView.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.LevelsListView.MultiSelect = false;
             this.LevelsListView.Name = "LevelsListView";
-            this.LevelsListView.Size = new System.Drawing.Size(326, 264);
+            this.LevelsListView.Size = new System.Drawing.Size(598, 495);
             this.LevelsListView.TabIndex = 0;
             this.LevelsListView.UseCompatibleStateImageBehavior = false;
             this.LevelsListView.View = System.Windows.Forms.View.Details;
@@ -68,9 +69,10 @@
             // ChooseLevelButton
             // 
             this.ChooseLevelButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ChooseLevelButton.Location = new System.Drawing.Point(0, 285);
+            this.ChooseLevelButton.Location = new System.Drawing.Point(0, 527);
+            this.ChooseLevelButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.ChooseLevelButton.Name = "ChooseLevelButton";
-            this.ChooseLevelButton.Size = new System.Drawing.Size(326, 23);
+            this.ChooseLevelButton.Size = new System.Drawing.Size(598, 42);
             this.ChooseLevelButton.TabIndex = 1;
             this.ChooseLevelButton.Text = "Select";
             this.ChooseLevelButton.UseVisualStyleBackColor = true;
@@ -97,25 +99,27 @@
             "Misc",
             "Bowsers Fury"});
             this.SectionComboBox.Location = new System.Drawing.Point(0, 0);
+            this.SectionComboBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.SectionComboBox.Name = "SectionComboBox";
-            this.SectionComboBox.Size = new System.Drawing.Size(326, 21);
+            this.SectionComboBox.Size = new System.Drawing.Size(598, 32);
             this.SectionComboBox.TabIndex = 2;
             this.SectionComboBox.SelectedIndexChanged += new System.EventHandler(this.SectionComboBox_SelectedIndexChanged);
             // 
             // LevelSelectForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 308);
+            this.ClientSize = new System.Drawing.Size(598, 569);
             this.Controls.Add(this.LevelsListView);
             this.Controls.Add(this.SectionComboBox);
             this.Controls.Add(this.ChooseLevelButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(342, 347);
+            this.MinimumSize = new System.Drawing.Size(607, 586);
             this.Name = "LevelSelectForm";
-            this.Text = "Spotlight - Choose a Level";
+            this.Text = "OdyLight - Choose a Level";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LevelParamSelectForm_FormClosing);
             this.ResumeLayout(false);
 
